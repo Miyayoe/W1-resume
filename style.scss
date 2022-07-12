@@ -1,0 +1,171 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-sm {
+  max-width: 996px;
+  margin: 0 auto;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.textarea {
+  border-bottom: 2px solid #000;
+  padding-top: 40px;
+  padding-bottom: 22px;
+  .title {
+    font-size: 80px;
+    line-height: 95px;
+  }
+}
+
+.picture {
+  margin: 48px 0;
+}
+.introduce-box {
+  margin-bottom: 64px;
+  .introduce-header {
+    padding-bottom: 7px;
+    border-bottom: 1px solid #000;
+    .introduce-title {
+      font-size: 32px;
+
+      font-weight: bold;
+
+      span {
+        margin-left: 16px;
+        font-size: 24px;
+
+        color: #a00404;
+      }
+    }
+  }
+}
+
+.profile {
+  p {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+}
+.education {
+  p {
+    margin: 16px 0;
+    font-size: 24px;
+  }
+}
+
+.skills {
+  background-color: #415165;
+  color: white;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin-bottom: 64px;
+  .skills-title {
+    font-size: 32px;
+
+    padding-bottom: 7px;
+    border-bottom: 1px solid white;
+    margin-bottom: 40px;
+    span {
+      margin-left: 16px;
+      font-size: 24px;
+    }
+  }
+  ul {
+    display: inline-block;
+    border-left: 1px solid #96a9c4;
+
+    li {
+      &:not(:last-child) {
+        padding-bottom: 8px;
+      }
+      margin-left: 24px;
+      text-align: left;
+      font-size: 24px;
+    }
+  }
+}
+
+.experience {
+  margin-bottom: 80px;
+  h3 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  ul {
+    margin-top: 16px;
+    border-left: 1px solid #96a9c4;
+
+    li {
+      margin-bottom: 24px;
+      margin-left: 24px;
+    }
+  }
+  p {
+    max-width: 642px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.contact {
+  padding-top: 24px;
+  padding-bottom: 40px;
+  background-color: #415165;
+  color: white;
+  text-align: center;
+  .contact-header {
+    border-bottom: 1px solid white;
+    margin-bottom: 24px;
+    .contact-title {
+      margin-bottom: 7px;
+      font-size: 32px;
+
+      span {
+        font-size: 24px;
+
+        margin-left: 16px;
+      }
+    }
+  }
+  .contact-info {
+    font-size: 24px;
+
+    li {
+      margin-bottom: 16px;
+    }
+  }
+  .contact-icons {
+    text-align: center;
+    li {
+      display: inline;
+      &:not(:last-child) {
+        margin-right: 24px;
+      }
+    }
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
